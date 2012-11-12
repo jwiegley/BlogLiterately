@@ -48,12 +48,13 @@ Source-repository head
   location: http://patch-tag.com/r/byorgey/BlogLiterately
 
 Library
-  Build-Depends:   base >= 4.0 && < 4.6,
+  Build-Depends:   base >= 4.0 && < 5,
                    process,
                    filepath,
                    directory,
                    bytestring,
                    containers,
+                   bool-extras,
                    split >= 0.1.4 && < 0.3,
                    utf8-string >= 0.3 && < 0.4,
                    transformers >= 0.3 && < 0.4,
